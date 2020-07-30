@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Landing Page</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+    <main id="content-wrapper">
+
+        <header id="header">
+            <img id="header-img"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5NC3fDsbgtdtXa9y7dvE5Dd3rtsPNN7-Pw4UNr9kw5l5yC_AH&s"
+                alt="electric-guitar">
+            <nav id="nav-bar">
+                <div id="nav-burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul id="nav-list">
+                    <li><a href="#features" class="nav-link">Features</a></li>
+                    <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
+                    <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div>
+
+            <div id="top-section">
+                <h3 class="centered-box">High Quality, Reliable Guitars</h3>
+                <form action="https://www.freecodecamp.com/email-submit" method="POST" id="form" class="centered-box">
+                    <div>
+                        <label for="email">
+                            <span>
+                                <input type="email" name="email" id="email" placeholder="Enter your email address."
+                                    required>
+                            </span>
+                        </label>
+                    </div>
+                    <input type="submit" id="submit" value="Get Started" class="primary-button">
+                </form>
+            </div>
+
+            <section id="features">
+                <div>
+                    <span>
+                        <i class="fa fa-3x fa-fire"></i>
+                    </span>
+                    <span>
+                        <h1>Premium Materials</h1>
+                        <p>
+                            Our materials are sourced internationally from well-known lumber companies, giving our
+                            guitars the finest sound.
+                        </p>
+                    </span>
+                </div>
+                <div>
+                    <span>
+                        <i class="fa fa-3x fa-truck"></i>
+                    </span>
+                    <span>
+                        <h1>Fast Shipping</h1>
+                        <p>
+                            Order our guitars via our online store and we'll get them to you so fast, you might think
+                            they were teleported!
+                        </p>
+                    </span>
+                </div>
+                <div>
+                    <span>
+                        <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+                    </span>
+                    <span>
+                        <h1>Quality Assurance</h1>
+                        <p>
+                            Guitars that last a lifetime? We have them - quality that's out of this world! (Shh...)
+                        </p>
+                    </span>
+                </div>
+            </section>
+
+            <section id="how-it-works">
+                <iframe id="video" width="640" height="360" src="https://www.youtube.com/embed/WxOulfAfKvk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+
+            <section id="pricing">
+                <div class="product">
+                    <h3 class="product-title">
+                        Elfenheim Bow
+                    </h3>
+                    <span class="product-header">
+                        <h1 class="price">
+                            R 4,999
+                        </h1>
+                    </span>
+                    <p class="product-summary">
+                        Originally modelled after the famous Guostek Sling from Elfenheim, this Guitar pierces your
+                        ears... Gently, of course.
+                    </p>
+                    <button class="primary-button product-select-button">
+                        Get
+                    </button>
+                </div>
+                <div class="product">
+                    <h3 class="product-title">
+                        Goblin Slayer
+                    </h3>
+                    <span class="product-header">
+                        <h1 class="price">
+                            R 3,499
+                        </h1>
+                    </span>
+                    <p class="product-summary">
+                        Is there really any explanation needed? It makes you cry, okay!
+                    </p>
+                    <button class="primary-button product-select-button">
+                        Get
+                    </button>
+                </div>
+                <div class="product">
+                    <h3 class="product-title">
+                        Kana's Smile
+                    </h3>
+                    <span class="product-header">
+                        <h1 class="price">
+                            R 9,999
+                        </h1>
+                    </span>
+                    <p class="product-summary">
+                        Despite the name, this Guitar it one of our deadlier products. Don't play this at home, kids.
+                    </p>
+                    <button class="primary-button product-select-button">
+                        Get
+                    </button>
+                </div>
+            </section>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <span>Copyright 2020, Isekai Guitar</span>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+    
+</body>
+</html>
